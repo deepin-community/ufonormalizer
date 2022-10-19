@@ -1,0 +1,10 @@
+#!/usr/bin/make -f
+
+export LC_ALL=C.UTF-8
+
+%:
+	dh $@ --with python3 --buildsystem=pybuild
+
+override_dh_auto_clean:
+	dh_auto_clean
+	rm src/ufonormalizer/_version.py

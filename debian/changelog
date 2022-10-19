@@ -1,0 +1,43 @@
+ufonormalizer (0.5.3-1) unstable; urgency=medium
+
+  * New upstream version 0.5.3
+
+ -- Yao Wei (魏銘廷) <mwei@debian.org>  Fri, 01 Jan 2021 22:08:11 +0800
+
+ufonormalizer (0.5.2-1) unstable; urgency=medium
+
+  * New upstream version 0.5.2
+  * debian/control:
+    - Use debhelper 13
+    - Bump Standards-Version to 4.5.1
+    - Add python3-setuptools-scm as dependency
+  * debian/rules: remove _version.py added by setuptools-scm on clean
+
+ -- Yao Wei (魏銘廷) <mwei@debian.org>  Fri, 11 Dec 2020 00:18:31 +0800
+
+ufonormalizer (0.4.2-1) unstable; urgency=medium
+
+  * New upstream version 0.4.2
+
+ -- Yao Wei (魏銘廷) <mwei@debian.org>  Sat, 10 Oct 2020 10:34:09 +0800
+
+ufonormalizer (0.4.1-1) unstable; urgency=medium
+
+  * New upstream version 0.4.1
+  * Use debhelper 12
+  * Bump Standards-Version to 4.5.0
+
+ -- Yao Wei (魏銘廷) <mwei@debian.org>  Fri, 29 May 2020 23:14:17 +0800
+
+ufonormalizer (0.3.6-1) unstable; urgency=medium
+
+  * New upstream version 0.3.6
+  * Change uploader email address
+
+ -- Yao Wei (魏銘廷) <mwei@debian.org>  Tue, 08 Jan 2019 19:43:00 +0100
+
+ufonormalizer (0.3.5-1) unstable; urgency=medium
+
+  * Initial upload. Closes: #905174
+
+ -- Yao Wei (魏銘廷) <mwei@lxde.org>  Mon, 03 Sep 2018 16:42:24 +0800
